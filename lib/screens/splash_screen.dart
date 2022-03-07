@@ -35,7 +35,11 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset('images/logo.png'),
+            Image.asset(
+              'images/logo.png',
+              width: 150,
+              height: 150,
+            ),
             Text(
               'Foodie Delivery Store',
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
